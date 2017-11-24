@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Crear un programa donde podamos introducir una hora y comprobandola con las 12 del mediodía nos indique si son buenos días o buenas tardes.</title>
+</head>
+
+<body>
+
+<button onclick="myFunction()">Te saludo</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var hour = new Date().getHours();
+    var greeting;
+    if (hour < 12) {
+        greeting = "Buenos dias";
+    } else {
+        greeting = "Buenas tardes";
+    }
+    document.getElementById("demo").innerHTML = greeting;
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>

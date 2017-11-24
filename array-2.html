@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Crear un array con tres días de la semana y añadirle posteriormente los días faltantes y que los muestre todos</title>
+</head>
+
+<body>
+
+
+<button onclick="myFunction()">Mas dias de la semana</button>
+
+<p id="demo"></p>
+
+<script>
+var Diasemana = ["Lunes", "Martes", "Miercoles"];
+document.getElementById("demo").innerHTML = Diasemana;
+
+function myFunction() {
+    Diasemana.push("Jueves","Viernes", "Sabado", "Domingo");
+    document.getElementById("demo").innerHTML = Diasemana;
+}
+</script>
+
+
+
+
+</body>
+</html>

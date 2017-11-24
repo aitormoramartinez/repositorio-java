@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hacer un programa que sustituya una cadena “Yo amo a mi perro” por “Yo amo a mi gato”</title>
+</head>
+<body>
+<p id="demo">Yo amo a mi perro</p>
+
+<button onclick="myFunction()">Cambiar</button>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML;
+    var res = str.replace("perro", "gato");
+    document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
+
+

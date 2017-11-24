@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Crear un array de frutas y ordenarlas por orden alfabético</title>
+</head>
+
+<body>
+
+<button onclick="myFunction()">Ordenar albabeticamente</button>
+
+<p id="demo"></p>
+
+<script>
+var frutas = ["Manzana", "Uva", "Pera", "Mango", "Limon"];
+document.getElementById("demo").innerHTML = frutas;
+
+function myFunction() {
+    frutas.sort();
+    document.getElementById("demo").innerHTML = frutas;
+}
+</script>
+
+
+
+
+
+
+</body>
+</html>

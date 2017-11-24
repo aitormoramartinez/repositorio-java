@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hacer un programa que ponga en mayúsculas la frase Emacs es el mejor programa del mundo</title>
+</head>
+
+<body>
+<button onclick="myFunction()">Convierte la frase en mayusculas</button>
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = "Emacs es el mejor programa del mundo";
+    var res = str.toUpperCase();
+    document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
