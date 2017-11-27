@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hacer una función a la cual le envíe tres enteros y los muestre ordenados de menor a mayor.</title>
+</head>
+
+<body>
+
+
+
+<script type="text/javascript">
+
+  function mostrarOrdenados(x1,x2,x3)
+  {
+    if (x1<x2 && x1<x3)
+    {
+      document.write(x1+' ');
+      if (x2<x3)
+      {
+        document.write(x2+' '+x3);
+      }
+      else
+      {
+        document.write(x3+' '+x2);
+      }
+    }
+    else
+    {
+      if (x2<x3)
+      {
+        document.write(x2+' ');
+        if (x1<x3)
+        {
+          document.write(x1+' '+x3);
+        }
+        else
+        {
+          document.write(x3+' '+x1);
+        }
+      }
+      else
+      {
+        document.write(x3+' ');
+        if (x1<x2)
+        {
+          document.write(x1+' '+x2);
+        }
+        else
+        {
+          document.write(x2+' '+x1);
+        }
+      }
+    }
+  }
+
+  var entero1,entero2,entero3;
+  entero1=prompt('Pon el primer entero:','');
+  entero1=parseInt(entero1);
+  entero2=prompt('Pon el segundo entero:','');
+  entero2=parseInt(entero2);
+  entero3=prompt('Pon el tercer entero:','');
+  entero3=parseInt(entero3);
+  document.write('Los tres enteros introducidos son los siguientes: '+entero1+' '+entero2+' '+entero3+'<br>');
+  document.write('Los tres enteros ordenados de menor a mayor son: ');
+  mostrarOrdenados(entero1,entero2,entero3);
+
+</script>
+
+
+
+</body>
+</html>
+

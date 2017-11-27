@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hacer un programa donde se solicite dos veces la contraseña a un usuario y se compruebe que es la misma.</title>
+<script>
+function comprobarClave(){
+   	clave1 = document.f1.clave1.value
+   	clave2 = document.f1.clave2.value
+
+   	if (clave1 == clave2)
+      	alert("Las dos claves son iguales \Has pasado la prueba")
+   	else
+      	alert("Las dos claves son diferentes...\escribe de nuevo las contraseñas para que coincidan")
+}
+</script>
+</head>
+
+<body>
+
+<h1>Pon la contraseña dos veces en los campos para haber si coinciden</h1>
+<br>
+Procede a escribir la contraseña dos veces en las correspondientes casillas, para confirmar la contraseña.
+<br>
+<form action="" name="f1">
+Contraseña: <input type="password" name="clave1" size="20">
+<br>
+Repite contraseña: <input type="password" name="clave2" size="20">
+<br>
+<input type="button" value="Comprobar si son iguales" onClick="comprobarClave()">
+
+</form>
+
+</body>
+</html>
