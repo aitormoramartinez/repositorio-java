@@ -1,13 +1,13 @@
-Escribe las distintas formas de ejecutar un cÛdigo javascript: 
+Escribe las distintas formas de ejecutar un c√≥digo javascript.: 
 
-ï EjecuciÛn directa
-Es el mÈtodo m·s b·sico. En este caso se incluyen las instrucciones dentro de la etiqueta <script>,
-tal como hemos comentado anteriormente. Cuando el navegador lee la p·gina y encuentra un script va
-interpretando las lÌneas de cÛdigo y las va ejecutando una despuÈs de otra.
+‚Ä¢ Ejecuci√≥n directa
+Es el m√©todo m√°s b√°sico. En este caso se incluyen las instrucciones dentro de la etiqueta <script>,
+tal como hemos comentado anteriormente. Cuando el navegador lee la p√°gina y encuentra un script va
+interpretando las l√≠neas de c√≥digo y las va ejecutando una despu√©s de otra.
 
-ï Respuesta a un evento
+‚Ä¢ Respuesta a un evento
 Es la otra manera de ejecutar un scripts, pero antes de verla debemos habla sobre los eventos. Los
-eventos son acciones que realiza el usuario. Los programas como javascript est·n preparados para atrapar
-determinadas acciones realizadas, en este caso sobre la p·gina, y realizar acciones como respuesta. De
+eventos son acciones que realiza el usuario. Los programas como javascript est√°n preparados para atrapar
+determinadas acciones realizadas, en este caso sobre la p√°gina, y realizar acciones como respuesta. De
 este modo se pueden realizar programas interactivos, ya que controlamos los movimientos del usuario y
 respondemos a ellos.
